@@ -1,0 +1,31 @@
+{
+  "method": "GET",
+  "uri": "/webhook",
+  "headers": {
+    "host": "localhost:3000",
+    "spin-path-info": "/webhook",
+    "spin-full-url": "http://localhost:3000/webhook",
+    "spin-component-route": "",
+    "accept": "*/*",
+    "spin-matched-route": "/...",
+    "user-agent": "curl/7.88.1",
+    "spin-raw-component-route": "/...",
+    "spin-base-path": "/",
+    "spin-client-addr": "127.0.0.1:51541"
+  },
+  "body": {},
+  "text": "[Function: ]",
+  "json": "[Function: ]"
+}
+{
+  "queryParams": {
+    "/webhook?a": "b",
+    "c": "d"
+  }
+}
+{
+  "queryParams": {
+    "a": "b",
+    "c": "d"
+  }
+}

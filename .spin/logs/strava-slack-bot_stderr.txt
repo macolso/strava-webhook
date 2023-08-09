@@ -1,0 +1,7 @@
+Handler returned an error: Uncaught TypeError: cannot read property 'status' of undefined
+    at <anonymous> (sdk.js:4094)
+    at call (native)
+    at step (sdk.js:4006)
+    at <anonymous> (sdk.js)
+    at fulfilled (sdk.js)
+
