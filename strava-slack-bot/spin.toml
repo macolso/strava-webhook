@@ -1,0 +1,15 @@
+spin_manifest_version = "1"
+authors = ["macolso <mackenzie.olson@fermyon.com>"]
+description = ""
+name = "strava-slack-bot"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "strava-slack-bot"
+source = "target/strava-slack-bot.wasm"
+exclude_files = ["**/node_modules"]
+[component.trigger]
+route = "/..."
+[component.build]
+command = "npm run build"
